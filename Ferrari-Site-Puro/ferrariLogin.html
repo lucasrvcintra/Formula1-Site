@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles/ferrari.css" />
+
+    <title>Ferrari Login</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Cadastre seus dados</legend>
+
+        <label for="email">Email:</label>
+        <br />
+        <input type="email" name="email" id="email" required />
+        <br /><br />
+
+        <label for="user">Nome de Usuário:</label>
+        <br />
+        <input type="text" name="user" id="user" required />
+        <br /><br />
+
+        <label for="pass">Senha:</label>
+        <br />
+        <input type="password" name="pass" id="pass" required />
+        <br /><br />
+
+        <div class="action">
+          Sexo:
+          <label> <input type="radio" name="atvExtra" />Masculino </label>
+          <label> <input type="radio" name="atvExtra" />Feminino </label>
+          <label> <input type="radio" name="atvExtra" />Não Informar </label>
+        </div>
+        <br /><br /><br />
+        <div class="action">
+          <input type="submit" value="Mandar" class="btn" />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
