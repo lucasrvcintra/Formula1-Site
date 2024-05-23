@@ -1,49 +1,26 @@
 import { useState } from "react";
 import React from "react";
+import Piloto from "../components/piloto";
+import Races from "../components/races";
 import "./App.css";
 
 function App() {
   return (
-    <div>
-      <header>
-        <h1>Scuderia Ferrari</h1>
-      </header>
+    <div className="container">
+      <h1>Fórmula 1</h1>
+
       <div>
-        <h2>Temporada 2024</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-          tenetur modi, dolor minus suscipit possimus, deleniti aspernatur
-          maiores ullam tempore, quod incidunt enim quaerat harum? Quam
-          architecto delectus at temporibus! Esse ipsam molestiae corporis
-          quisquam eveniet magni neque id sed fugiat consequuntur rerum voluptas
-          mollitia perferendis, doloremque ipsum, veniam molestias temporibus
-          debitis a quidem soluta?
-        </p>
+        <h2>Equipe</h2>
+        <div>
+          <h3>Ferrari</h3>
+        </div>
       </div>
       <div>
         <h2>Pilotos:</h2>
-        <div className="menu">
-          <div classNameName="">
-            <a
-              href="https://www.instagram.com/charles_leclerc/"
-              target="_blank"
-            >
-              Charles Leclerc nº 16
-            </a>
-          </div>
-          <div>
-            <a href="https://www.instagram.com/carlossainz55/" target="_blank">
-              Carlos Sainz nº 55
-            </a>
-          </div>
-        </div>
       </div>
+      <Piloto></Piloto>
       <h2>Corridas:</h2>
-      <div className="fundo">
-        Qatar Japão Singapura Países Baixos Bélgica Hungria Inglaterra Austria
-        Canadá Espanha Mônaco Em-Romagna Miami Azerbaijão Arábia Saudita Bahrain
-        Sakhir EUA México Interlagos Las Vegas Abu Dhabi
-      </div>
+      <Races></Races>
       <h2>Algumas capturas da temporada:</h2>
       <img
         src="src/images/af9b00b5-e4dc-4154-913e-3b507202f24b.jpg"
