@@ -1,6 +1,6 @@
-:root {
+body {
+  overflow: hidden;
   color: whitesmoke;
-  text-align: justify;
   padding: 0;
   margin: auto;
   font-family: Arial, Helvetica, sans-serif;
@@ -16,6 +16,10 @@
 .container {
   background-color: rgba(0, 0, 0, 0.39);
   padding: 40px;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  overflow: auto;
 }
 
 .menu {
@@ -23,11 +27,13 @@
   justify-content: space-around;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .pilot a {
   display: flex;
   align-items: center;
+  text-decoration: none;
 
   padding: 16px;
   color: whitesmoke;
@@ -37,19 +43,6 @@
   background-color: rgba(255, 0, 0, 0.853);
   color: whitesmoke;
   border-radius: 10px;
-}
-
-.races {
-  height: 260px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 16px;
-
-  margin-left: 45px;
 }
 
 h1 {
@@ -70,22 +63,4 @@ h3 {
   text-align: center;
   padding-bottom: 20px;
   margin: 0;
-}
-p {
-  text-align: justify;
-  line-height: 1.25;
-  padding: 10px;
-  margin: 0;
-}
-
-.float-right {
-  float: right;
-}
-.float-left {
-  float: left;
-}
-.img-size {
-  width: 500px;
-  padding: 12px;
-  display: inline;
 }

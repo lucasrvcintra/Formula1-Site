@@ -1,52 +1,134 @@
-const teams = {
-  equipe: "RedBull",
-  pilotos: {
-    piloto1: `<a href="">Max Verstapen</a>`,
-    piloto2: `<a href="">Sérgio Perez</a>`,
+var teams = {
+  redbull: {
+    nome: "RedBull",
+    pilotos: {
+      piloto1: {
+        nome: "Max Verstappen",
+        url: "https://www.instagram.com/maxverstappen/",
+      },
+      piloto2: {
+        nome: "Sérgio Perez",
+        url: "https://www.instagram.com/sergioperez/",
+      },
+    },
   },
-  equipe: "Ferrari",
-  pilotos: {
-    piloto1: `<a href="https://www.instagram.com/charles_leclerc/">Charles Leclerc</a>`,
-    piloto2: `<a href="https://www.instagram.com/carlossainz55/">Carlos Sainz</a>`,
+  ferrari: {
+    nome: "Ferrari",
+    pilotos: {
+      piloto1: {
+        nome: "Charles Leclerc",
+        url: "https://www.instagram.com/charles_leclerc/",
+      },
+      piloto2: {
+        nome: "Carlos Sainz",
+        url: "https://www.instagram.com/carlossainz55/",
+      },
+    },
   },
-  equipe: "McLaren",
-  pilotos: {
-    piloto1: `<a href="">Lando Norris</a>`,
-    piloto2: `<a href="">Oscar Piastri</a>`,
+  mclaren: {
+    nome: "McLaren",
+    pilotos: {
+      piloto1: {
+        nome: "Lando Norris",
+        url: "https://www.instagram.com/landonorris/",
+      },
+      piloto2: {
+        nome: "Oscar Piastri",
+        url: "https://www.instagram.com/oscarpiastri/",
+      },
+    },
   },
-  equipe: "Mercedez",
-  pilotos: {
-    piloto1: `<a href="">Lewis Hamilton</a>`,
-    piloto2: `<a href="">George Russel</a>`,
+  mercedez: {
+    nome: "Mercedez",
+    pilotos: {
+      piloto1: {
+        nome: "Lewis Hamilton",
+        url: "https://www.instagram.com/lewishamilton/",
+      },
+      piloto2: {
+        nome: "George Russel",
+        url: "https://www.instagram.com/georgerussell63/",
+      },
+    },
   },
-  equipe: "Aston Martin",
-  pilotos: {
-    piloto1: `<a href="">Fernando Alonso</a>`,
-    piloto2: `<a href="">Lance Stroll</a>`,
+  astonmartin: {
+    nome: "Aston Martin",
+    pilotos: {
+      piloto1: {
+        nome: "Fernando Alonso",
+        url: "https://www.instagram.com/fernandoalo_oficial/",
+      },
+      piloto2: {
+        nome: "Lance Stroll",
+        url: "https://www.instagram.com/lance_stroll/",
+      },
+    },
   },
-  equipe: "RacingBulls",
-  pilotos: {
-    piloto1: `<a href="">Yuki Tsunoda</a>`,
-    piloto2: `<a href="">Daniel Riccardo</a>`,
+  racingbulls: {
+    nome: "RacingBulls",
+    pilotos: {
+      piloto1: {
+        nome: "Yuki Tsunoda",
+        url: "https://www.instagram.com/yukitsunoda07/",
+      },
+      piloto2: {
+        nome: "Daniel Ricciardo",
+        url: "https://www.instagram.com/danielricciardo/",
+      },
+    },
   },
-  equipe: "Kick Sauber",
-  pilotos: {
-    piloto1: `<a href="">Valteri Bottas</a>`,
-    piloto2: `<a href="">Guanyu Zhou</a>`,
+  kicksauber: {
+    nome: "Kick Sauber",
+    pilotos: {
+      piloto1: {
+        nome: "Valtteri Bottas",
+        url: "https://www.instagram.com/valtteribottas/",
+      },
+      piloto2: {
+        nome: "Guanyu Zhou",
+        url: "https://www.instagram.com/guanyuzhou/",
+      },
+    },
   },
-  equipe: "Haas",
-  pilotos: {
-    piloto1: `<a href="">Kevin Magnussen</a>`,
-    piloto2: `<a href="">Nico Hülkenberg</a>`,
+  haas: {
+    nome: "Haas",
+    pilotos: {
+      piloto1: {
+        nome: "Kevin Magnussen",
+        url: "https://www.instagram.com/kevinmagnussen/",
+      },
+      piloto2: {
+        nome: "Nico Hülkenberg",
+        url: "https://www.instagram.com/hulkhulkenberg/",
+      },
+    },
   },
-  equipe: "Alpine",
-  pilotos: {
-    piloto1: `<a href="">Esteban Ocon</a>`,
-    piloto2: `<a href="">Pierre Gasly</a>`,
+  alpine: {
+    nome: "Alpine",
+    pilotos: {
+      piloto1: {
+        nome: "Esteban Ocon",
+        url: "https://www.instagram.com/estebanocon/",
+      },
+      piloto2: {
+        nome: "Pierre Gasly",
+        url: "https://www.instagram.com/pierregasly/",
+      },
+    },
   },
-  equipe: "Williams",
-  pilotos: {
-    piloto1: `<a href="">Alexander Albon</a>`,
-    piloto2: `<a href="">Logan Sargent</a>`,
+  williams: {
+    nome: "Williams",
+    pilotos: {
+      piloto1: {
+        nome: "Alexander Albon",
+        url: "https://www.instagram.com/albon/",
+      },
+      piloto2: {
+        nome: "Logan Sargeant",
+        url: "https://www.instagram.com/logansargeant/",
+      },
+    },
   },
 };
+
+export default teams;
