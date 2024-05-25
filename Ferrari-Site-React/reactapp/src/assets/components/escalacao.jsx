@@ -1,6 +1,6 @@
-// escalacao.js
 import React, { useState } from "react";
 import teams from "../teams";
+import "./escalacao.css";
 
 function Escalacao() {
   const [equipeSelecionada, setEquipeSelecionada] = useState(null);
@@ -12,17 +12,22 @@ function Escalacao() {
   return (
     <div>
       <div>
-        <div className="dropdown">
+        <div className="dropdown dropdown-position">
           <button
-            className="btn btn-secondary dropdown-toggle"
+            className="btn dropdown-toggle botao"
             type="button"
             id="dropdownMenuButton"
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            Selecione uma equipe
+            {equipeSelecionada
+              ? teams[equipeSelecionada].nome
+              : "Selecione uma equipe"}
           </button>
-          <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <ul
+            className="dropdown-menu bg-dark"
+            aria-labelledby="dropdownMenuButton"
+          >
             {Object.keys(teams).map((equipe, index) => (
               <li key={index}>
                 <button
@@ -36,27 +41,24 @@ function Escalacao() {
             ))}
           </ul>
         </div>
-        <div>
-          {equipeSelecionada ? (
-            <h3>{teams[equipeSelecionada].nome}</h3>
-          ) : (
-            <p>Selecione uma equipe</p>
-          )}
-        </div>
       </div>
 
       {equipeSelecionada && (
         <div className="menu">
-          <h2>Pilotos:</h2>
-          {Object.values(teams[equipeSelecionada].pilotos).map(
-            (piloto, index) => (
-              <div className="pilot" key={index}>
-                <a href={piloto.url} target="_blank">
-                  {piloto.nome}
-                </a>
-              </div>
-            )
-          )}
+          <div className="pilot-title">
+            <h2>Pilotos:</h2>
+          </div>
+          <div className="pilotos">
+            {Object.values(teams[equipeSelecionada].pilotos).map(
+              (piloto, index) => (
+                <div className="pilot" key={index}>
+                  <a href={piloto.url} target="_blank">
+                    {piloto.nome}
+                  </a>
+                </div>
+              )
+            )}
+          </div>
         </div>
       )}
     </div>

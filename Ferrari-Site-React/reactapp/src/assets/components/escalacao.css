@@ -1,0 +1,27 @@
+.botao {
+  background-color: rgba(255, 0, 0, 0.853);
+}
+.botao:hover,
+.botao:focus {
+  background-color: rgba(171, 0, 0, 0.853);
+}
+
+.botao,
+.dropdown-item {
+  color: whitesmoke;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(255, 0, 0, 0.853);
+  color: whitesmoke;
+  border-radius: 10px;
+}
+.dropdown-position {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+
+  height: 100px;
+}
