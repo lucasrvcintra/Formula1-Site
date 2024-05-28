@@ -1,0 +1,21 @@
+.container-fluid button {
+  background-color: rgba(255, 0, 0, 0.853);
+}
+
+.logo {
+  height: 20px;
+}
+.navbar-nav a {
+  color: white;
+}
+.navbar-nav a:hover {
+  color: rgba(255, 255, 255, 0.651);
+}
+
+.navbar-nav .nav-link.active {
+  color: rgba(255, 0, 0, 0.853);
+}
+
+.nav-link.active:hover {
+  color: rgba(255, 0, 0, 0.613);
+}

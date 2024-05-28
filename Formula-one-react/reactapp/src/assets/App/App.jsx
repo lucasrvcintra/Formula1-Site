@@ -1,15 +1,21 @@
-import React from "react";
-
+import React, { useState } from "react";
 import Escalacao from "../components/escalacao";
+import Navbar from "../components/navbar";
 import Races from "../components/races";
 import "./App.css";
 
 function App() {
+  const [activeLink, setActiveLink] = useState("Home");
+
+  const handleLinkClick = (link) => {
+    setActiveLink(link);
+  };
+
   return (
     <div className="container">
-      <h1>Fórmula 1</h1>
+      <Navbar activeLink={activeLink} onLinkClick={handleLinkClick}></Navbar>
 
-      <Escalacao></Escalacao>
+      {activeLink === "Teams" && <Escalacao></Escalacao>}
     </div>
   );
 }
