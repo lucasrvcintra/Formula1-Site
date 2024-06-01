@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import Escalacao from "../components/escalacao";
 import Navbar from "../components/navbar";
-import Races from "../components/races";
+import CardFlip from "../components/cardFlip";
+import cardsData from "../cardData";
+import "../../index.css";
 import "./App.css";
 
 function App() {
@@ -12,11 +14,30 @@ function App() {
   };
 
   return (
-    <div className="container">
-      <Navbar activeLink={activeLink} onLinkClick={handleLinkClick}></Navbar>
+    <>
+      <Navbar
+        activeLink={activeLink}
+        onLinkClick={handleLinkClick}
+        className="navbar"
+      />
+      <div className="container">
+        <div className="content">
+          {activeLink === "Teams" && <Escalacao />}
 
-      {activeLink === "Teams" && <Escalacao></Escalacao>}
-    </div>
+          {activeLink === "Tracks" && (
+            <div className="card-grid">
+              {cardsData.map((card) => (
+                <CardFlip
+                  key={card.id}
+                  image={card.image}
+                  trackInfo={card.trackInfo}
+                />
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+    </>
   );
 }
 
