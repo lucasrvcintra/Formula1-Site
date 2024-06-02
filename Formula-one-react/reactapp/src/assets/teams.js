@@ -8,7 +8,7 @@ var teams = {
       },
       piloto2: {
         nome: "Sérgio Perez",
-        url: "https://www.instagram.com/sergioperez/",
+        url: "https://www.instagram.com/schecoperez/",
       },
     },
     carro:
@@ -79,7 +79,7 @@ var teams = {
     pilotos: {
       piloto1: {
         nome: "Yuki Tsunoda",
-        url: "https://www.instagram.com/yukitsunoda07/",
+        url: "https://www.instagram.com/yukitsunoda0511/",
       },
       piloto2: {
         nome: "Daniel Ricciardo",
@@ -87,7 +87,7 @@ var teams = {
       },
     },
     carro:
-      "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/racing-bulls.png",
+      "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/rb.png",
   },
   kicksauber: {
     nome: "Kick Sauber",
@@ -98,7 +98,7 @@ var teams = {
       },
       piloto2: {
         nome: "Guanyu Zhou",
-        url: "https://www.instagram.com/guanyuzhou/",
+        url: "https://www.instagram.com/zhouguanyu24/",
       },
     },
     carro:
@@ -139,7 +139,7 @@ var teams = {
     pilotos: {
       piloto1: {
         nome: "Alexander Albon",
-        url: "https://www.instagram.com/albon/",
+        url: "https://www.instagram.com/alex_albon/",
       },
       piloto2: {
         nome: "Logan Sargeant",
