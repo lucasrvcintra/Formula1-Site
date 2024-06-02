@@ -9,8 +9,8 @@ const cardsData = [
       distance: "5.4km",
       laps: 57,
       lastWinner: "Max Verstapen",
-      funFacts:
-        "O Circuito Internacional do Bahrein, em Sakhir, é o local do primeiro Grande Prêmio noturno da Fórmula 1 e é famoso por sua iluminação espetacular, que cria uma atmosfera única durante a corrida.",
+      funFact:
+        " O Circuito Internacional do Bahrein, em Sakhir, é o local do primeiro Grande Prêmio noturno da Fórmula 1 e é famoso por sua iluminação espetacular, que cria uma atmosfera única durante a corrida.",
     },
   },
   {
@@ -22,8 +22,8 @@ const cardsData = [
       distance: "6.1km",
       laps: 50,
       lastWinner: "Max Verstapen",
-      funFacts:
-        "O Circuito de Jeddah, na Arábia Saudita, é conhecido por sua vista deslumbrante do Mar Vermelho, proporcionando aos pilotos uma experiência de corrida única com um pano de fundo pitoresco.",
+      funFact:
+        " O Circuito de Jeddah, na Arábia Saudita, é conhecido por sua vista deslumbrante do Mar Vermelho, proporcionando aos pilotos uma experiência de corrida única com um pano de fundo pitoresco.",
     },
   },
   {
@@ -35,8 +35,8 @@ const cardsData = [
       distance: "5.3km",
       laps: 58,
       lastWinner: "Carlos Sainz",
-      funFacts:
-        "O Circuito de Albert Park, em Melbourne, tem uma seção conhecida como 'Lagoa das Garças', onde ocasionalmente aves migratórias fazem uma parada durante suas viagens sazonais.",
+      funFact:
+        " O Circuito de Albert Park, em Melbourne, tem uma seção conhecida como 'Lagoa das Garças', onde ocasionalmente aves migratórias fazem uma parada durante suas viagens sazonais.",
     },
   },
 
@@ -49,8 +49,8 @@ const cardsData = [
       distance: "5.8km",
       laps: 53,
       lastWinner: "Max Verstappen",
-      funFacts:
-        "O Circuito de Suzuka é conhecido por sua 'Esses de Suzuka', uma série de curvas desafiadoras em forma de 'S', que testam os limites dos pilotos e proporcionam alguns dos momentos mais emocionantes da temporada.",
+      funFact:
+        " O Circuito de Suzuka é conhecido por sua 'Esses de Suzuka', uma série de curvas desafiadoras em forma de 'S', que testam os limites dos pilotos e proporcionam alguns dos momentos mais emocionantes da temporada.",
     },
   },
   {
@@ -62,8 +62,8 @@ const cardsData = [
       distance: "5.4km",
       laps: 56,
       lastWinner: "Max Verstappen",
-      funFacts:
-        "O Circuito Internacional de Xangai é conhecido por sua reta de 1,2 km, uma das mais longas do calendário da Fórmula 1, proporcionando oportunidades emocionantes de ultrapassagem.",
+      funFact:
+        " O Circuito Internacional de Xangai é conhecido por sua reta de 1,2 km, uma das mais longas do calendário da Fórmula 1, proporcionando oportunidades emocionantes de ultrapassagem.",
     },
   },
   {
@@ -75,8 +75,8 @@ const cardsData = [
       distance: "5.4km",
       laps: 57,
       lastWinner: "Lando Norris",
-      funFacts:
-        "O Circuito de Miami é projetado para incorporar algumas das icônicas ruas da cidade, proporcionando uma experiência de corrida única com vistas deslumbrantes e desafios emocionantes.",
+      funFact:
+        " O Circuito de Miami é projetado para incorporar algumas das icônicas ruas da cidade, proporcionando uma experiência de corrida única com vistas deslumbrantes e desafios emocionantes.",
     },
   },
   {
@@ -88,8 +88,8 @@ const cardsData = [
       distance: "4.909km",
       laps: 63,
       lastWinner: "Max Verstappen",
-      funFacts:
-        "O Autódromo Enzo e Dino Ferrari, em Imola, é famoso por sua história na Fórmula 1 e por sediar corridas emocionantes com seu layout desafiador.",
+      funFact:
+        " O Autódromo Enzo e Dino Ferrari, em Imola, é famoso por sua história na Fórmula 1 e por sediar corridas emocionantes com seu layout desafiador.",
     },
   },
   {
@@ -101,8 +101,8 @@ const cardsData = [
       distance: "3.3km",
       laps: 78,
       lastWinner: "Charles Leclerc",
-      funFacts:
-        "O Circuito de Mônaco é conhecido por suas casas luxuosas ao longo do traçado da pista, e uma delas, a Villa La Vigie, já foi residência do famoso estilista Karl Lagerfeld.",
+      funFact:
+        " O Circuito de Mônaco é conhecido por suas casas luxuosas ao longo do traçado da pista, e uma delas, a Villa La Vigie, já foi residência do famoso estilista Karl Lagerfeld.",
     },
   },
   {
@@ -114,8 +114,8 @@ const cardsData = [
       distance: "4.4km",
       laps: 70,
       lastWinner: "Max Verstappen",
-      funFacts:
-        "O Circuito Gilles Villeneuve, em Montreal, é cercado por uma vegetação exuberante, e durante os dias de corrida, os fãs muitas vezes chegam em suas embarcações pelo Rio São Lourenço para assistir à corrida de perto.",
+      funFact:
+        " O Circuito Gilles Villeneuve, em Montreal, é cercado por uma vegetação exuberante, e durante os dias de corrida, os fãs muitas vezes chegam em suas embarcações pelo Rio São Lourenço para assistir à corrida de perto.",
     },
   },
   {
@@ -127,8 +127,8 @@ const cardsData = [
       distance: "4.7km",
       laps: 66,
       lastWinner: "Max Verstappen",
-      funFacts:
-        "O Circuito de Barcelona-Catalunha é um dos poucos circuitos de Fórmula 1 que também possui uma pista de testes adjacente, onde as equipes realizam testes durante a pré-temporada e ao longo do ano.",
+      funFact:
+        " O Circuito de Barcelona-Catalunha é um dos poucos circuitos de Fórmula 1 que também possui uma pista de testes adjacente, onde as equipes realizam testes durante a pré-temporada e ao longo do ano.",
     },
   },
   {
@@ -140,8 +140,8 @@ const cardsData = [
       distance: "4.3km",
       laps: 71,
       lastWinner: "Max Verstappen",
-      funFacts:
-        "O Circuito Red Bull Ring, em Spielberg, é cercado por belas paisagens montanhosas e é comum ver parapentes coloridos voando sobre a pista durante os fins de semana de corrida.",
+      funFact:
+        " O Circuito Red Bull Ring, em Spielberg, é cercado por belas paisagens montanhosas e é comum ver parapentes coloridos voando sobre a pista durante os fins de semana de corrida.",
     },
   },
   {
@@ -153,8 +153,8 @@ const cardsData = [
       distance: "5.8km",
       laps: 52,
       lastWinner: "Max Verstappen",
-      funFacts:
-        "O Circuito de Silverstone é um dos circuitos mais antigos do calendário da Fórmula 1 e é famoso por sua história rica e suas instalações modernas.",
+      funFact:
+        " O Circuito de Silverstone é um dos circuitos mais antigos do calendário da Fórmula 1 e é famoso por sua história rica e suas instalações modernas.",
     },
   },
   {
@@ -166,8 +166,8 @@ const cardsData = [
       distance: "4.4km",
       laps: 70,
       lastWinner: "Max Verstappen",
-      funFacts:
-        "O Circuito de Hungaroring, perto de Budapeste, é conhecido por sua localização pitoresca, situado entre colinas arborizadas e oferecendo vistas panorâmicas da cidade de Budapeste.",
+      funFact:
+        " O Circuito de Hungaroring, perto de Budapeste, é conhecido por sua localização pitoresca, situado entre colinas arborizadas e oferecendo vistas panorâmicas da cidade de Budapeste.",
     },
   },
   {
@@ -179,8 +179,8 @@ const cardsData = [
       distance: "7.0km",
       laps: 44,
       lastWinner: "Max Verstappen",
-      funFacts:
-        "O Circuito de Spa-Francorchamps é famoso por suas mudanças climáticas imprevisíveis, onde uma parte da pista pode estar ensolarada enquanto outra está sob chuva torrencial, desafiando os pilotos e proporcionando corridas emocionantes.",
+      funFact:
+        " O Circuito de Spa-Francorchamps é famoso por suas mudanças climáticas imprevisíveis, onde uma parte da pista pode estar ensolarada enquanto outra está sob chuva torrencial, desafiando os pilotos e proporcionando corridas emocionantes.",
     },
   },
   {
@@ -192,8 +192,8 @@ const cardsData = [
       distance: "4.3km",
       laps: 72,
       lastWinner: "Max Verstappen",
-      funFacts:
-        "O Circuito de Zandvoort está localizado à beira-mar e oferece aos fãs uma oportunidade única de assistir às corridas enquanto desfrutam das brisas do Mar do Norte.",
+      funFact:
+        " O Circuito de Zandvoort está localizado à beira-mar e oferece aos fãs uma oportunidade única de assistir às corridas enquanto desfrutam das brisas do Mar do Norte.",
     },
   },
   {
@@ -205,8 +205,8 @@ const cardsData = [
       distance: "5.8km",
       laps: 53,
       lastWinner: "Max Verstappen",
-      funFacts:
-        "O Circuito de Monza é o lar da famosa 'Floresta Real', uma área de parque natural dentro do complexo do circuito, que acrescenta um toque de beleza natural à atmosfera de alta velocidade das corridas.",
+      funFact:
+        " O Circuito de Monza é o lar da famosa 'Floresta Real', uma área de parque natural dentro do complexo do circuito, que acrescenta um toque de beleza natural à atmosfera de alta velocidade das corridas.",
     },
   },
   {
@@ -218,8 +218,8 @@ const cardsData = [
       distance: "6.003km",
       laps: 51,
       lastWinner: "Sergio Perez",
-      funFacts:
-        "O Circuito Urbano de Baku é conhecido por suas retas longas, curvas estreitas e seu cenário urbano único, com trechos passando por áreas históricas da cidade.",
+      funFact:
+        " O Circuito Urbano de Baku é conhecido por suas retas longas, curvas estreitas e seu cenário urbano único, com trechos passando por áreas históricas da cidade.",
     },
   },
   {
@@ -231,8 +231,8 @@ const cardsData = [
       distance: "5.1km",
       laps: 62,
       lastWinner: "Max Verstappen",
-      funFacts:
-        "O Circuito de Marina Bay, em Cingapura, é o primeiro e único circuito de rua da Fórmula 1 a ser totalmente iluminado por lâmpadas de LED, criando uma paisagem urbana deslumbrante durante as corridas noturnas.",
+      funFact:
+        " O Circuito de Marina Bay, em Cingapura, é o primeiro e único circuito de rua da Fórmula 1 a ser totalmente iluminado por lâmpadas de LED, criando uma paisagem urbana deslumbrante durante as corridas noturnas.",
     },
   },
   {
@@ -244,8 +244,8 @@ const cardsData = [
       distance: "5.5km",
       laps: 56,
       lastWinner: "Max Verstappen",
-      funFacts:
-        "O Circuito das Américas, em Austin, é o único circuito nos Estados Unidos projetado especificamente para corridas de Fórmula 1 e possui uma das maiores elevações de todo o calendário da Fórmula 1.",
+      funFact:
+        " O Circuito das Américas, em Austin, é o único circuito nos Estados Unidos projetado especificamente para corridas de Fórmula 1 e possui uma das maiores elevações de todo o calendário da Fórmula 1.",
     },
   },
   {
@@ -257,8 +257,8 @@ const cardsData = [
       distance: "4.3km",
       laps: 71,
       lastWinner: "Max Verstappen",
-      funFacts:
-        "O Autódromo Hermanos Rodríguez, na Cidade do México, é construído dentro do Parque Forestal de los Chapultepec, um dos maiores parques urbanos do mundo, proporcionando um contraste interessante entre a natureza e a alta velocidade das corridas.",
+      funFact:
+        " O Autódromo Hermanos Rodríguez, na Cidade do México, é construído dentro do Parque Forestal de los Chapultepec, um dos maiores parques urbanos do mundo, proporcionando um contraste interessante entre a natureza e a alta velocidade das corridas.",
     },
   },
   {
@@ -270,8 +270,8 @@ const cardsData = [
       distance: "4.3km",
       laps: 71,
       lastWinner: "Max Verstappen",
-      funFacts:
-        "O Autódromo José Carlos Pace, em São Paulo, é carinhosamente conhecido como Interlagos, nome que se origina da região onde está localizado, entre dois grandes lagos, Guarapiranga e Billings.",
+      funFact:
+        " O Autódromo José Carlos Pace, em São Paulo, é carinhosamente conhecido como Interlagos, nome que se origina da região onde está localizado, entre dois grandes lagos, Guarapiranga e Billings.",
     },
   },
   {
@@ -283,8 +283,8 @@ const cardsData = [
       distance: "6.2km",
       laps: 50,
       lastWinner: "Max Verstapen",
-      funFacts:
-        "O Circuito de Las Vegas é projetado para proporcionar uma experiência emocionante aos pilotos, com uma mistura de trechos de alta velocidade e curvas desafiadoras, além de vistas deslumbrantes dos famosos hotéis e cassinos da Strip.",
+      funFact:
+        " O Circuito de Las Vegas é projetado para proporcionar uma experiência emocionante aos pilotos, com uma mistura de trechos de alta velocidade e curvas desafiadoras, além de vistas deslumbrantes dos famosos hotéis e cassinos da Strip.",
     },
   },
   {
@@ -296,8 +296,8 @@ const cardsData = [
       distance: "5.4km",
       laps: 57,
       lastWinner: "Max Verstapen",
-      funFacts:
-        "O Circuito Internacional de Losail, no Catar, é conhecido por ser uma pista de corrida de motociclismo de classe mundial e sediar eventos noturnos. A Fórmula 1 fará sua estreia neste circuito em breve.",
+      funFact:
+        " O Circuito Internacional de Losail, no Catar, é conhecido por ser uma pista de corrida de motociclismo de classe mundial e sediar eventos noturnos. A Fórmula 1 fará sua estreia neste circuito em breve.",
     },
   },
   {
@@ -309,8 +309,8 @@ const cardsData = [
       distance: "5.3km",
       laps: 58,
       lastWinner: "Max Verstapen",
-      funFacts:
-        "O Circuito de Yas Marina, em Abu Dhabi, é famoso por sua arquitetura deslumbrante e pela corrida que termina ao anoitecer, proporcionando uma paisagem espetacular com o pôr do sol e as luzes artificiais da cidade.",
+      funFact:
+        " O Circuito de Yas Marina, em Abu Dhabi, é famoso por sua arquitetura deslumbrante e pela corrida que termina ao anoitecer, proporcionando uma paisagem espetacular com o pôr do sol e as luzes artificiais da cidade.",
     },
   },
 ];

@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  background-color: rgba(0, 0, 0, 0.39);
+  background-color: rgba(0, 0, 0, 0.479);
   padding: 40px;
   height: 100vh;
   width: 100vw;
@@ -33,7 +33,8 @@ body {
   margin-top: 60px; /* Ajuste conforme a altura da Navbar */
 }
 
-.pilot-title {
+.pilot-title,
+.car-title {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -45,7 +46,8 @@ body {
   width: fit-content;
 }
 
-.pilotos {
+.pilotos,
+.carro {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
@@ -53,7 +55,6 @@ body {
   flex-wrap: wrap;
   margin: 30px;
 }
-
 .pilot a {
   display: flex;
   align-items: center;

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import teams from "../teams";
 import "./escalacao.css";
 
-function Escalacao() {
+const Escalacao = () => {
   const [equipeSelecionada, setEquipeSelecionada] = useState(null);
 
   const handleChangeEquipe = (equipe) => {
@@ -59,10 +59,23 @@ function Escalacao() {
               )
             )}
           </div>
+          <div className="car-title">
+            <h2>Carro:</h2>
+          </div>
+          <div className="carro">
+            <div className="car">
+              <a href={teams[equipeSelecionada].carro} target="_blank">
+                <img
+                  src={teams[equipeSelecionada].carro}
+                  alt="Carro da equipe"
+                />
+              </a>
+            </div>
+          </div>
         </div>
       )}
     </div>
   );
-}
+};
 
 export default Escalacao;

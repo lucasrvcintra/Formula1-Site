@@ -11,6 +11,8 @@ var teams = {
         url: "https://www.instagram.com/sergioperez/",
       },
     },
+    carro:
+      "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/red-bull-racing.png",
   },
   ferrari: {
     nome: "Ferrari",
@@ -24,6 +26,8 @@ var teams = {
         url: "https://www.instagram.com/carlossainz55/",
       },
     },
+    carro:
+      "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/ferrari.png",
   },
   mclaren: {
     nome: "McLaren",
@@ -37,6 +41,8 @@ var teams = {
         url: "https://www.instagram.com/oscarpiastri/",
       },
     },
+    carro:
+      "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/mclaren.png",
   },
   mercedez: {
     nome: "Mercedez",
@@ -50,6 +56,8 @@ var teams = {
         url: "https://www.instagram.com/georgerussell63/",
       },
     },
+    carro:
+      "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/mercedes.png",
   },
   astonmartin: {
     nome: "Aston Martin",
@@ -63,6 +71,8 @@ var teams = {
         url: "https://www.instagram.com/lance_stroll/",
       },
     },
+    carro:
+      "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/aston-martin.png",
   },
   racingbulls: {
     nome: "RacingBulls",
@@ -76,6 +86,8 @@ var teams = {
         url: "https://www.instagram.com/danielricciardo/",
       },
     },
+    carro:
+      "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/racing-bulls.png",
   },
   kicksauber: {
     nome: "Kick Sauber",
@@ -89,6 +101,8 @@ var teams = {
         url: "https://www.instagram.com/guanyuzhou/",
       },
     },
+    carro:
+      "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/kick-sauber.png",
   },
   haas: {
     nome: "Haas",
@@ -102,6 +116,8 @@ var teams = {
         url: "https://www.instagram.com/hulkhulkenberg/",
       },
     },
+    carro:
+      "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/haas.png",
   },
   alpine: {
     nome: "Alpine",
@@ -115,6 +131,8 @@ var teams = {
         url: "https://www.instagram.com/pierregasly/",
       },
     },
+    carro:
+      "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/alpine.png",
   },
   williams: {
     nome: "Williams",
@@ -128,6 +146,8 @@ var teams = {
         url: "https://www.instagram.com/logansargeant/",
       },
     },
+    carro:
+      "https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/williams.png",
   },
 };
 
