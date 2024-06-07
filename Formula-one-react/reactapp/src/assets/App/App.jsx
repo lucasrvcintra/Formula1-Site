@@ -21,11 +21,11 @@ function App() {
         className="navbar"
       />
       <div className="container">
-        <div className="content">
+        <div className="mt-4">
           {activeLink === "Teams" && <Escalacao />}
 
           {activeLink === "Tracks" && (
-            <div className="card-grid">
+            <div className="flex justify-center gap-4 flex-wrap pt-4">
               {cardsData.map((card) => (
                 <CardFlip
                   key={card.id}

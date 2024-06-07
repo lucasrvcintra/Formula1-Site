@@ -25,3 +25,30 @@
 
   height: 100px;
 }
+.title {
+  border-bottom: 3px solid rgba(255, 0, 0, 0.853);
+  width: fit-content;
+}
+
+.team-content {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 30px;
+}
+.pilot a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+
+  padding: 16px;
+  color: whitesmoke;
+}
+
+.pilot a:hover {
+  background-color: rgba(255, 0, 0, 0.853);
+  color: whitesmoke;
+  border-radius: 10px;
+}

@@ -45,10 +45,10 @@ const Escalacao = () => {
 
       {equipeSelecionada && (
         <div className="menu">
-          <div className="pilot-title">
+          <div className="title flex flex-col  items-start flex-wrap">
             <h2>Pilotos:</h2>
           </div>
-          <div className="pilotos">
+          <div className="team-content ">
             {Object.values(teams[equipeSelecionada].pilotos).map(
               (piloto, index) => (
                 <div className="pilot" key={index}>
@@ -59,18 +59,13 @@ const Escalacao = () => {
               )
             )}
           </div>
-          <div className="car-title">
+          <div className="title flex flex-col  items-start flex-wrap">
             <h2>Carro:</h2>
           </div>
-          <div className="carro">
-            <div className="car">
-              <a href={teams[equipeSelecionada].carro} target="_blank">
-                <img
-                  src={teams[equipeSelecionada].carro}
-                  alt="Carro da equipe"
-                />
-              </a>
-            </div>
+          <div className="team-content">
+            <a href={teams[equipeSelecionada].carro} target="_blank">
+              <img src={teams[equipeSelecionada].carro} alt="Carro da equipe" />
+            </a>
           </div>
         </div>
       )}

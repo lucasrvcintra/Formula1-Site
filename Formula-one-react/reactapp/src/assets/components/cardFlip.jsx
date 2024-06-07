@@ -34,7 +34,7 @@ function CardFlip({ image, trackInfo }) {
   return (
     <>
       <div
-        className="flip-card bg-black bg-opacity-50 rounded-md flex items-center justify-center"
+        className="flip-card bg-black bg-opacity-50 rounded-md flex items-center justify-center "
         style={{ width: "360px", height: "400px" }}
         onClick={handleFlip}
       >
@@ -45,13 +45,13 @@ function CardFlip({ image, trackInfo }) {
           transition={{ duration: 0.6, animationDirection: "normal" }}
           onAnimationComplete={() => setIsAnimating(false)}
         >
-          <div className="flip-card-front w-full h-full rounded-lg border-[1px] overflow-hidden flex flex-col items-center justify-center">
-            <h2 className="text-white text-lg font-bold mb-2 mt-2 pl-3">
+          <div className="flip-card-front absolute w-full h-full rounded-lg border-[1px] overflow-hidden flex flex-col items-center justify-center px-3">
+            <h2 className="text-white text-lg font-bold text-center mb-3">
               {trackInfo.name}
             </h2>
             <img src={image} alt="Card Front" className="w-auto h-auto" />
           </div>
-          <div className="flip-card-back w-full h-full bg-cover border-[1px] text-white rounded-lg p-4 overflow-scroll overflow-x-hidden">
+          <div className="flip-card-back absolute w-full h-full bg-cover border-[1px] text-white rounded-lg p-4 overflow-scroll overflow-x-hidden">
             <h1 className="text-2xl font-bold">TrackInfo:</h1>
             {renderTrackInfo(trackInfo)}
           </div>
