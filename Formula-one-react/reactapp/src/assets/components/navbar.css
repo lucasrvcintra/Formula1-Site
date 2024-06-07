@@ -1,8 +1,12 @@
+.container-fluid {
+  margin: 0;
+  padding: 0 12px;
+}
+
 .container-fluid button {
   background-color: rgba(255, 0, 0, 0.853);
 }
 .navbar {
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;

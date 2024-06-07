@@ -15,12 +15,12 @@ function App() {
 
   return (
     <>
-      <Navbar
-        activeLink={activeLink}
-        onLinkClick={handleLinkClick}
-        className="navbar"
-      />
       <div className="container">
+        <Navbar
+          activeLink={activeLink}
+          onLinkClick={handleLinkClick}
+          className="navbar"
+        />
         <div className="mt-4">
           {activeLink === "Teams" && <Escalacao />}
 
