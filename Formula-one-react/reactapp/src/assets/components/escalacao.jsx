@@ -12,7 +12,7 @@ const Escalacao = () => {
   return (
     <div>
       <div>
-        <div className="dropdown dropdown-position">
+        <div className="dropdown flex flex-row justify-center items-center mt-5">
           <button
             className="btn dropdown-toggle botao"
             type="button"
@@ -48,7 +48,7 @@ const Escalacao = () => {
           <div className="title flex flex-col  items-start flex-wrap">
             <h2>Pilotos:</h2>
           </div>
-          <div className="team-content ">
+          <div className="team-content">
             {Object.values(teams[equipeSelecionada].pilotos).map(
               (piloto, index) => (
                 <div className="pilot" key={index}>
