@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import teams from "../teams";
 import "./escalacao.css";
+import Carros from "./carros";
+import Pilotos from "./pilotos";
 
 const Escalacao = () => {
   const [equipeSelecionada, setEquipeSelecionada] = useState(null);
@@ -48,25 +50,12 @@ const Escalacao = () => {
           <div className="title flex flex-col  items-start flex-wrap">
             <h2>Pilotos:</h2>
           </div>
-          <div className="team-content">
-            {Object.values(teams[equipeSelecionada].pilotos).map(
-              (piloto, index) => (
-                <div className="pilot" key={index}>
-                  <a href={piloto.url} target="_blank">
-                    {piloto.nome}
-                  </a>
-                </div>
-              )
-            )}
-          </div>
+          <Pilotos pilotos={Object.values(teams[equipeSelecionada].pilotos)} />
           <div className="title flex flex-col  items-start flex-wrap">
             <h2>Carro:</h2>
           </div>
-          <div className="team-content">
-            <a href={teams[equipeSelecionada].carro} target="_blank">
-              <img src={teams[equipeSelecionada].carro} alt="Carro da equipe" />
-            </a>
-          </div>
+
+          <Carros equipe={teams[equipeSelecionada]} />
         </div>
       )}
     </div>
