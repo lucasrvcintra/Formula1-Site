@@ -1,8 +1,11 @@
 import React, { useState } from "react";
+
 import Escalacao from "../components/escalacao";
 import Navbar from "../components/navbar";
 import CardFlip from "../components/cardFlip";
 import cardsData from "../cardData";
+import Carousel from "../components/carousel";
+
 import "../../index.css";
 import "./App.css";
 
@@ -22,10 +25,11 @@ function App() {
           className="navbar"
         />
         <div className="mt-4">
+          {activeLink === "Home" && <Carousel />}
           {activeLink === "Teams" && <Escalacao />}
 
           {activeLink === "Tracks" && (
-            <div className="flex justify-center gap-4 flex-wrap pt-4">
+            <div className="flex justify-center gap-5 flex-wrap pt-4">
               {cardsData.map((card) => (
                 <CardFlip
                   key={card.id}
